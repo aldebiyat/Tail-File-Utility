@@ -1,0 +1,28 @@
+{
+  "name": "tail-ts",
+  "version": "1.0.0",
+  "description": "Challenge to build the tail utility in Typescript",
+  "main": "tail.ts",
+  "scripts": {
+    "start": "ts-node ./tail.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crowdriff-candidates/tail-ts.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crowdriff-candidates/tail-ts/issues"
+  },
+  "homepage": "https://github.com/crowdriff-candidates/tail-ts#readme",
+  "devDependencies": {
+    "ts-node": "^10.7.0",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+    "@types/minimist": "^1.2.2",
+    "@types/node": "^17.0.22",
+    "minimist": "^1.2.6"
+  }
+}
